@@ -1,9 +1,11 @@
 #include<stdio.h>
+#include <unistd.h>
 
 int main(void)
 {
-    printf("hello\n");
-    printf("hello 12345566\n");
+    printf("Hej Marius\n");
+    sleep(3);
+    printf("Du er en farlig dreng\n");
     /* code */
     return 0;
 }
