@@ -1,0 +1,3 @@
+ls test.c | entr -c sh -c 'gcc test.c && ./a.out'
+
+ls exercise1.c | entr -c sh -c 'gcc exercise1.c -o exercise1.out && ./exercise1.out'
