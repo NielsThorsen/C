@@ -1,3 +1,7 @@
 ls test.c | entr -c sh -c 'gcc test.c && ./a.out'
 
 ls exercise1.c | entr -c sh -c 'gcc exercise1.c -o exercise1.out && ./exercise1.out'
+
+ls maxvalue.c | entr -c sh -c 'gcc maxvalue.c -o maxvalue.out && ./maxvalue.out'
+
+ls exercise4.c | entr -c sh -c 'gcc exercise4.c -o exercise4.out && ./exercise4.out'
