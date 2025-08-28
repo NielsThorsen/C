@@ -11,6 +11,14 @@ int main(void) {
 
 	scanf("%c %c", &x, &y); /*Skulle lige huske %C istedet for %d*/
 
+    if (x==y)
+	{
+	printf("Tallene er ens");
+
+
+	}
+	else
+	{
 	if (x <= y)
 		max = y;
 	else
@@ -18,5 +26,7 @@ int main(void) {
 
 	printf("The maximum is %c.\n", max);
 
-	return 0;
+
+	}
+		return 0;
 }
